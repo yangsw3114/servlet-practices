@@ -31,5 +31,18 @@
 			<td colspan=4>안녕하세요</td>
 		</tr>
 	</table>
+	
+		<br>
+	<table width=510 border=1>
+		<tr>
+			<td>[2]</td>
+			<td>양승우</td>
+			<td>2021-10-08</td>
+			<td><a href="deleteform.jsp?no=2">삭제</a></td>
+		</tr>
+		<tr>
+			<td colspan=4>안녕하세요!</td>
+		</tr>
+	</table>
 </body>
 </html>
