@@ -42,6 +42,6 @@ String profile = request.getParameter("profile");
 	
 	<br/><br/>
 	<a href="form.jsp"> 폼으로가기</a>
-	<a href="/helloweb/hello.jsp?name=양승우"> 폼으로가기</a>
+	<a href="/helloweb/hello.jsp?name=양승우&email=ysw3114"> hello.jsp에 가기</a>
 </body>
 </html>
