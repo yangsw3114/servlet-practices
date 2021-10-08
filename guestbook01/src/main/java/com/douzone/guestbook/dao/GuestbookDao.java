@@ -11,7 +11,7 @@ import java.util.List;
 import com.douzone.guestbook.vo.GuestbookVo;
 
 
-
+//
 public class GuestbookDao {
 
 	public boolean insert(GuestbookVo vo) {

@@ -7,7 +7,7 @@ import com.douzone.guestbook.dao.GuestbookDao;
 import com.douzone.guestbook.vo.GuestbookVo;
 
 public class GuestbookDaoTest {
-
+//
 	public static void main(String[] args) {
 		//insertTest();
 		findAll();
