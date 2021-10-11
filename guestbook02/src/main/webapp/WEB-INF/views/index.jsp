@@ -29,7 +29,7 @@
 	<br>
 	
 	<%
-		for(GuestbookVo vo : list){
+		for(GuestbookVo vo : list){ 
 	%>
 	<table width=510 border=1>
 		<tr>
