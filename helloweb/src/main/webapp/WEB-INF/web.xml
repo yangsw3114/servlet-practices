@@ -29,5 +29,15 @@
     <servlet-name>CookieServlet</servlet-name>
     <url-pattern>/CookieServlet</url-pattern>
   </servlet-mapping>
-    
+
+  <servlet>
+    <description></description>
+    <display-name>LifeCycleservlet</display-name>
+    <servlet-name>LifeCycleservlet</servlet-name>
+    <servlet-class>helloweb.LifeCycleservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LifeCycleservlet</servlet-name>
+    <url-pattern>/lc</url-pattern>
+  </servlet-mapping>
 </web-app>

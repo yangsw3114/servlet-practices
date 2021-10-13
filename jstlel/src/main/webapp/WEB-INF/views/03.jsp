@@ -13,25 +13,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<c:choose>
-	<c:when test='${param.c == "red" }'>
-		<h1 style="color:red">Hello World</h1>
-	</c:when>
-	<c:when test='${param.c == "green" }'>
-		<h1 style="color:green">Hello World</h1>
-	</c:when>
-	<c:when test='${param.c == "blue" }'>
-		<h1 style="color:blue">Hello World</h1>
-	</c:when>
-	<c:otherwise>
-		<h1 style="color:black">Hello World</h1>
-	</c:otherwise>
-</c:choose>
-		
-		
-		
-		
-
+	<h1>JSTL(forEach Tag) Test</h1>
+	
+	<c:set var='count' value='${fn:length(list) }'/>
+	
+	<c:forEach items='${list }' var='vo' varStatus='status'>
+		[${count-status.index }] (${status.index }:${status.count }) [${vo.no }:${vo.name }]<br/>
+	</c:forEach>
 </body>
 </html>
