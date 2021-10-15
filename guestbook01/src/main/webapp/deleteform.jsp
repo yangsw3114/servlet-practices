@@ -8,7 +8,7 @@
 <title>방명록</title>
 </head>
 <body>
-	<form method="post" action="<%=request.getContextPath() %>/delete.jsp">
+	<form method="post" action="${pageContext.request.contextPath }/delete.jsp">
 		<input type='text' name="no" value=<%=no %>>
 		<input type="password" name="password">
 		<input type="submit" value="확인">
